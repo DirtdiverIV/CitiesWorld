@@ -5,7 +5,7 @@
     <h3>Ranking - Most Visited</h3>
     <div id="sidecard" class="card text-bg-dark" *ngFor="let ciudad of ciudades">
         <img id="sideimg" [src]="ciudad.imgurl" class="card-img" alt="Imagen de {{ ciudad.name }}">
-        <div class="card-img-overlay">
+        <div id="sidename" class="card-img-overlay">
           <p class="card-text">{{ ciudad.name }}</p>
         </div>
       </div>

@@ -17,6 +17,7 @@
 p {
     font-size: 0.7em;
     margin: 0px;
+    color: white;
 }
 
 #restdiv {
@@ -26,7 +27,7 @@ p {
 }
 
 #mainDiv {
-    background-color: rgb(103, 196, 240);
+    background-color: #6e9fc1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,6 +36,7 @@ p {
 h3 {
     margin: 0px;
     text-align: center;
+    color: white;
 }
 #tittle {
     padding: 1em;
