@@ -1,0 +1,36 @@
+<div id="mainmain" class="container-fluid">
+
+
+<div id="ranking" class="card text-bg-ligth">
+    <h3>Ranking - Most Visited</h3>
+    <div id="sidecard" class="card text-bg-dark" *ngFor="let ciudad of ciudades">
+        <img id="sideimg" [src]="ciudad.imgurl" class="card-img" alt="Imagen de {{ ciudad.name }}">
+        <div class="card-img-overlay">
+          <p class="card-text">{{ ciudad.name }}</p>
+        </div>
+      </div>
+  </div>
+  
+  
+
+
+
+
+
+
+<section id="mainCards" class="container-fluid">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let ciudad of ciudades">
+        <div id="maincard" class="card" style="width: 18rem;">
+          <img id="maincardimg" [src]="ciudad.imgurl" class="card-img-top" alt="Imagen de {{ ciudad.name }}">
+          <div class="card-body">
+            <p class="card-text">{{ ciudad.description }}</p>
+            <div id="btndiv" class="container-fluid">
+            <a id="cardbtn" href="#" class="btn btn-primary">{{ ciudad.name }}</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>

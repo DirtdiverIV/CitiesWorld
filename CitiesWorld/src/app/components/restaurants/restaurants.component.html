@@ -1,0 +1,9 @@
+<div class="container-fluid" id="mainDiv">
+    <div class="container-fluid" id="tittle"><h3>Most Popular Restaurant</h3></div>
+    <div class="container-fluid" id="restdiv">
+      <div class="container-fluid" id="restcarddiv" *ngFor="let restaurante of restaurantes">
+        <img id="restimg" [src]="restaurante.imgurl" alt="Imagen de {{ restaurante.name }}">
+        <p>{{ restaurante.name }} - {{ restaurante.description }}</p>
+      </div>
+    </div>
+  </div>

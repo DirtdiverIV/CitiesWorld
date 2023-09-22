@@ -1,0 +1,30 @@
+#nav {
+}
+
+#logo {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#logodiv {
+
+    width: 50%;
+}
+
+
+#icondiv {
+  
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#icon {
+    width: 10%;
+
+    margin: 0px;
+}
+

@@ -1,0 +1,55 @@
+#sidecard {
+    width: 12em;
+    border-radius: 0px;
+    margin: 0.5em;
+    border: 0px;
+}
+
+#sideimg {
+    border-radius: 0px;
+    border: 0px;
+}
+
+#ranking {
+    width: 16em;
+    border-radius: 0px;
+    background-color: white;
+}
+
+#mainmain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+#maincardimg {
+    width: 100%;
+    height: 10em;
+    border-radius: 0px;
+}
+
+#mainCards {
+    margin-left: 2em;
+    padding-right: 2em;
+}
+
+#maincard {
+    border-radius: 0px;
+    margin-bottom: 4em;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 6px;
+}
+
+#cardbtn {
+    background-color: rgb(90, 147, 252);
+    border: 0px;
+    border-radius: 20px;
+}
+
+#btndiv {
+    display: flex;
+    justify-content: flex-end;
+}
